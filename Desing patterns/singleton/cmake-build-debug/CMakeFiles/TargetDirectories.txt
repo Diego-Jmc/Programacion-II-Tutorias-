@@ -1,0 +1,3 @@
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/singleton/cmake-build-debug/CMakeFiles/singleton.dir
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/singleton/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/singleton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
