@@ -1,0 +1,12 @@
+# ninja log v5
+0	246	7006535524026183	CMakeFiles/prototype.dir/main.cpp.obj	7dfb572ef569b842
+247	323	7006535524771356	prototype.exe	5b5a21e1b699a193
+13	370	7006544946046727	CMakeFiles/prototype.dir/Shape.cpp.obj	9a536371175901b2
+3	371	7006544946026733	CMakeFiles/prototype.dir/IPrototype.cpp.obj	8c098428ea2f9386
+7	388	7006544946276768	CMakeFiles/prototype.dir/main.cpp.obj	7dfb572ef569b842
+10	397	7006544946366797	CMakeFiles/prototype.dir/Circle.cpp.obj	8f0f8012c502d037
+397	494	7006544947315760	prototype.exe	af29099678be5c5f
+2	255	7006545897241415	CMakeFiles/prototype.dir/main.cpp.obj	7dfb572ef569b842
+256	353	7006545898191622	prototype.exe	af29099678be5c5f
+2	252	7006546068859393	CMakeFiles/prototype.dir/main.cpp.obj	7dfb572ef569b842
+252	339	7006546069699583	prototype.exe	af29099678be5c5f

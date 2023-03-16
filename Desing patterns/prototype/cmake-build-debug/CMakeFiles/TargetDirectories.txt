@@ -1,0 +1,3 @@
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/prototype/cmake-build-debug/CMakeFiles/prototype.dir
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/prototype/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/diego/Desktop/Programacion II Tutorias/Desing patterns/prototype/cmake-build-debug/CMakeFiles/rebuild_cache.dir
