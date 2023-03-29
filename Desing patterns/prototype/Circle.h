@@ -16,7 +16,7 @@ private:
     float radius;
 
 public:
-    Circle(Circle* );
+    Circle(Circle * );
     Circle(float radius);
     IPrototype * clone() override;
     float getArea() const override;

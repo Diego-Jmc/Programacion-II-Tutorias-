@@ -6,7 +6,7 @@
 #define PROTOTYPE_SHAPE_H
 #include <iostream>
 
-
+// clase figura
 class Shape {
 
 protected:
