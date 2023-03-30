@@ -15,6 +15,7 @@ bool List<T>::empty() {
     return this->size == 0;
 }
 
+// aca debe de haber un metodo insertar inicio 
 
 template<class T>
 void List<T>::insert(T *data) {
