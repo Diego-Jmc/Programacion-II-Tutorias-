@@ -6,6 +6,7 @@
 #define LINKED_LIST_LIST_H
 #include "Node.cpp"
 #include <sstream>
+#include "Client.h"
 
 template <class T>
 class List {
@@ -19,6 +20,7 @@ public:
     std::string toString();
     bool empty();
     void clear();
+    std::string printClientsBalance();
 
     virtual ~List();
 

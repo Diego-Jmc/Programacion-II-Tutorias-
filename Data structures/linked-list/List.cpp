@@ -50,6 +50,20 @@ std::string List<T>::toString() {
     return s.str();
 }
 
+// Esto limita a la clase lista a solo disponer de este metodo , cuando se utiliza con clientes
+template<class Client>
+std::string List<Client>::printClientsBalance(){
+    std::stringstream s;
+    Node<Client> *temp = root;
+
+    while(temp){
+        s<<temp->getData()->GetClientBalance()<<std::endl;
+        temp = temp->getNext();
+    }
+
+    return s.str();
+}
+
 template<class T>
 List<T>::~List() {
 
