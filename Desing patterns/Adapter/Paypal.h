@@ -10,7 +10,6 @@
 // lets suposse that this is a third party library wich is not
 // compatible with our code
 
-
 class Paypal {
 
 public:

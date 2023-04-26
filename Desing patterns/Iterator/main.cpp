@@ -49,6 +49,8 @@ int main() {
     iterador->reset();
     std::cout<<"ITERADOR RESETEADO"<<std::endl;
     std::cout<<iterador->getNext()->toString()<<std::endl;
+    std::cout<<iterador->hasNext()<<std::endl;
+
 
 
     return 0;

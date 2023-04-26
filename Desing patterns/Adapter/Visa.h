@@ -10,7 +10,6 @@ class Visa : public PaymentProcessor {
 
 public:
     Visa();
-
     void processPayment(float) override;
 };
 

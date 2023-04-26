@@ -31,3 +31,10 @@ template<class T>
 void VectorIterator<T>::reset() {
     currentPos = 0;
 }
+
+
+
+
+
+
+
