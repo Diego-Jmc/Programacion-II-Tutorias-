@@ -24,6 +24,8 @@ public:
 
     virtual ~List();
 
+    Node<T> *getRoot() const;
+
 };
 
 

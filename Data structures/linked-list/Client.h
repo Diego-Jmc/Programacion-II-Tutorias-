@@ -23,8 +23,6 @@ public:
 private:
     std::string name;
     Account *account;
-
-
 };
 
 

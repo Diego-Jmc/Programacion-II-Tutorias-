@@ -92,3 +92,8 @@ void List<T>::clear() {
 
     root = nullptr;
 }
+
+template<class T>
+Node<T> *List<T>::getRoot() const {
+    return root;
+}

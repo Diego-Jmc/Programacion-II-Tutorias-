@@ -13,10 +13,7 @@ void creation(ElectronicFactory *factory){
     delete w;
 }
 
-template<typename T>
-T sum(T val1,T val2){
-    return val1+val2;
-}
+
 
 
 int main() {
@@ -30,8 +27,6 @@ int main() {
 
     std::cout<<"***** USO DE FACTORIA SAMGSUNG *****"<<std::endl<<std::endl;
     creation(factory);
-
-    std::cout<<sum<int>(1,2);
 
     delete factory;
 
