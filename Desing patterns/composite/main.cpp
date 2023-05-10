@@ -2,6 +2,7 @@
 #include <vector>
 #include <list>
 
+//
 class Component{
 public:
     virtual std::string getResult()=0;
@@ -11,6 +12,7 @@ public:
 
 class Composite : public Component {
 private:
+
    std::vector<Component *> *children = new std::vector<Component*>();
 
 public:
@@ -23,9 +25,7 @@ public:
         children->erase(c);
     }
 
-
-
-      std::string getResult()override{
+     std::string getResult()override{
 
         std::string result = "brach(";
         int k = 0;
@@ -44,6 +44,8 @@ public:
 
 };
 
+
+// hoja
 class Leaf : public Component{
     std::string getResult()override{
         return "Leaf";
@@ -52,15 +54,16 @@ class Leaf : public Component{
 
 int main() {
 
-   std::list<int> myList;
+   Composite *c = new Composite();
+   c->Add(new Leaf());
+    c->Add(new Leaf());
+        c->Add(new Leaf());
+    Composite *c2 = new Composite();
+        c2->Add(new Leaf());
+            c2->Add(new Leaf());
+             c->Add(c2);
 
-   myList.push_back(1);
-   myList.push_back(2);
-
-
-   for(auto begin = myList.begin();begin!=myList.end();begin++){
-       std::cout<<*begin;
-   }
+             std::cout<<c->getResult()<<std::endl;
 
     return 0;
 }
