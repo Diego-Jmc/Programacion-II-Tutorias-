@@ -29,13 +29,12 @@ public:
 };
 
 
-
 class AnimalFactory{
 
 public:
     void mostrarAnimal(){
         IAnimal *animal = getAnimal();
-
+        animal->mostrar();
     }
 
    virtual IAnimal * getAnimal() = 0;
@@ -61,13 +60,12 @@ public:
 
 
 void mostrarAnimal(AnimalFactory *factory){
-
     factory->mostrarAnimal();
-
-
 }
 
 int main() {
+
+    mostrarAnimal(new AvesFactory());
 
 
     return 0;
