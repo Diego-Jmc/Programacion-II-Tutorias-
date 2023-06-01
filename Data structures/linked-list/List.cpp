@@ -97,3 +97,8 @@ template<class T>
 Node<T> *List<T>::getRoot() const {
     return root;
 }
+
+template<class T>
+ListIterator<T> * List<T>::getIterator() {
+    return new ListIterator<T>(getRoot());
+}

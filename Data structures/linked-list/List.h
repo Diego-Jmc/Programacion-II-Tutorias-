@@ -7,6 +7,10 @@
 #include "Node.cpp"
 #include <sstream>
 #include "Client.h"
+#include "ListIterator.cpp"
+
+template <class K>
+class ListIterator;
 
 template <class T>
 class List {
@@ -21,6 +25,7 @@ public:
     bool empty();
     void clear();
     std::string printClientsBalance();
+    ListIterator<T> * getIterator();
 
     virtual ~List();
 

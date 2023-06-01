@@ -1,7 +1,19 @@
-#include "CarFileManager.h"
-
+#include "List.cpp"
+#include "Car.h"
 
 int main() {
+
+
+    /*
+
+    CarFileManager *maganer = new CarFileManager(list,"carros.txt");
+
+    maganer->guardarCarrosEnArchivo();
+
+    List<Car> *myList = maganer->cargar();
+
+
+     */
 
     Car *car = new Car("Lamborgini","Gallardo",2001);
     Car *car2 = new Car("Toyota","Corolla",2020);
@@ -16,14 +28,17 @@ int main() {
     list->insert(car3);
     list->insert(car4);
 
-    CarFileManager *maganer = new CarFileManager(list,"carros.txt");
+    ListIterator<Car> *iter = list->getIterator();
 
-    maganer->guardarCarrosEnArchivo();
 
-    List<Car> *myList = maganer->cargar();
+    for(; iter->hasNext() ; iter->getNext()){
+        std::cout<<iter->getCurrent()->getData()->toString()<<std::endl; // fix demeter
+    }
 
-    std::cout<<myList->toString()<<std::endl;
+    iter->reset();
 
+
+    delete iter;
 
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+
 class INewsPaperObserver{
 public:
    virtual void update(std::string articleName)=0;
@@ -34,14 +35,12 @@ public:
 class NewYorkSuscriber :public INewsPaperObserver{
 
 public:
-    virtual void update(std::string articleName){
+    virtual void update(std::string articleName)override{
         std::cout<<"El usuario"<<this<<" Ha sido notificado del articulo:"<<articleName<<std::endl;
     }
 };
 
 class NewYorkTimes:public INewsPaperObservable{
-
-
 
 public:
     virtual void notify() override{

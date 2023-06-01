@@ -5,8 +5,6 @@
 #ifndef LINKED_LIST_NODE_H
 #define LINKED_LIST_NODE_H
 #include <iostream>
-
-
 // First we must define a template , so we can re-use this class
 
 template <class T>
